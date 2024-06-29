@@ -46,12 +46,3 @@ export type INewUser = {
   username: string;
   password: string;
 };
-
-export type IUpdateUser = {
-  userId: string;
-  name: string;
-  bio: string;
-  imageId: string;
-  imageUrl: URL | string;
-  file: File[];
-};
