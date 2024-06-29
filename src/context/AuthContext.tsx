@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
 import { IUser } from '../types'
 import { getCurrentUser } from '../lib/appwrite/api'
-import { useAsyncError, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 export const INTIAL_USER  = { 
    id: "",
